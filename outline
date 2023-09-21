@@ -1,0 +1,29 @@
+1. Project Workflows - Joseph
+  - good enough practices
+  - restarting R, .revn, .revniron, .rProfile 
+  - using Projects for everything (that will be more than a quick answer)
+
+2. Github, Templates, and stable projects - Joseph
+  - library(usethis)
+  - library(here)
+  - library(gitcreds)
+
+3. Rhino, modules, project file structures, documentation, and shiny - Nathan
+  - human and machine readable
+  - What Rhiono is
+  - Async shiny apps
+  - Performance tracking for shiny
+  
+  
+  
+Alt
+- Dashboards (bslib, shinydashboard, shinyuieditor, themes)
+- r online community (R4DS, Data Science Hangout)
+- Optimal data flow
+
+What was the value in person:
+- More focused (less work distractions)
+- Collab and ask questions to developers and other users
+- 
+
+
