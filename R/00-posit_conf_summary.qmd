@@ -1,24 +1,45 @@
 ---
-title: "00-posit_conf_summary"
-format: revealjs
-editor: visual
+title: "Posit::conf() Summary"
+format:
+  revealjs: 
+    slide-number: true
+    theme: dark
+    chalkboard: 
+      buttons: false
+    preview-links: true
+    footer: <https://github.com/JosephRichey/2023-09-17-posit_conf_summary>
 ---
 
-## Quarto
+# Project Workflows
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+## "Good Enough" Practices {background-image="https://images.unsplash.com/photo-1594631389194-0795bf920faa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1984&q=80" background-opacity="0.25"}
 
-## Bullets
+[Tidyverse Style Guide](https://style.tidyverse.org/files.html)
 
-When you click the **Render** button a document will be generated that includes:
+## Leveraging .R\* Files and Project Packages {background-image="https://images.unsplash.com/photo-1445620466293-d6316372ab59?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" background-opacity="0.25"}
 
--   Content authored with markdown
--   Output from executable code
+::: incremental
+-   library(renv)
+-   .Rprofile
+-   .Renviron
+:::
 
-## Code
+## Projects, Projects, Projects! {background-image="https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" background-opacity="0.25"}
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+# Git, Templates, and Stable Paths
 
-```{r}
-1 + 1
+## Packges {background-image="https://images.unsplash.com/photo-1545287072-e39ac363b3c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" background-opacity="0.25"}
+``` {.r code-line-numbers="1|2|3"}
+library(usethis)
+library(here)
+library(gitcreds)
 ```
+
+# Rhino, File Structures, and Shiny
+
+## Bonus - Quarto
+
+```{=html}
+<iframe width="1000" height="800" src="https://quarto.org/docs/presentations/revealjs/demo/#/title-slide" title="Quarto Example"></iframe>
+```
+
