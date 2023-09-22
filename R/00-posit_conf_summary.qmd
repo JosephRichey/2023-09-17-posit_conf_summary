@@ -28,12 +28,20 @@ format:
 
 # Git, Templates, and Stable Paths
 
-## Packges {background-image="https://images.unsplash.com/photo-1545287072-e39ac363b3c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" background-opacity="0.25"}
+## Packges {background-image="https://images.unsplash.com/photo-1545287072-e39ac363b3c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" background-opacity="0.25" preview_links="FALSE"}
+
 ``` {.r code-line-numbers="1|2|3"}
 library(usethis)
 library(here)
 library(gitcreds)
 ```
+
+::: incremental
+-   [What is Version Control?](https://vimeo.com/41027679)
+-   [What is Git?](https://vimeo.com/41381741)
+-   [Getting going with Git](https://vimeo.com/41493906)
+-   [***Simple Git Tutorial***](https://pel-daniel.github.io/git-init/index.html)
+:::
 
 # Rhino, File Structures, and Shiny
 
@@ -42,4 +50,3 @@ library(gitcreds)
 ```{=html}
 <iframe width="1000" height="800" src="https://quarto.org/docs/presentations/revealjs/demo/#/title-slide" title="Quarto Example"></iframe>
 ```
-
